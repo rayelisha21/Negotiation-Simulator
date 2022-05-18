@@ -777,7 +777,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1001 &557991710
 PrefabInstance:
@@ -975,7 +975,7 @@ Transform:
   m_LocalScale: {x: 0.25, y: 1, z: 0.2}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!1001 &574244976
 PrefabInstance:
@@ -1026,6 +1026,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 381b10302126a804db0865433cd2b4e2, type: 3}
+--- !u!1001 &630646625
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3532944584723925078, guid: 9cb1746a9790e184b9f4f71ec6afb75a, type: 3}
+      propertyPath: m_Name
+      value: Abigail_Hairstyle1_Outfit1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200832389970940652, guid: 9cb1746a9790e184b9f4f71ec6afb75a, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200832389970940652, guid: 9cb1746a9790e184b9f4f71ec6afb75a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200832389970940652, guid: 9cb1746a9790e184b9f4f71ec6afb75a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200832389970940652, guid: 9cb1746a9790e184b9f4f71ec6afb75a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200832389970940652, guid: 9cb1746a9790e184b9f4f71ec6afb75a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200832389970940652, guid: 9cb1746a9790e184b9f4f71ec6afb75a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200832389970940652, guid: 9cb1746a9790e184b9f4f71ec6afb75a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200832389970940652, guid: 9cb1746a9790e184b9f4f71ec6afb75a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200832389970940652, guid: 9cb1746a9790e184b9f4f71ec6afb75a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200832389970940652, guid: 9cb1746a9790e184b9f4f71ec6afb75a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200832389970940652, guid: 9cb1746a9790e184b9f4f71ec6afb75a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9cb1746a9790e184b9f4f71ec6afb75a, type: 3}
 --- !u!1001 &671189303
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1267,7 +1324,7 @@ Transform:
   m_LocalScale: {x: 0.25, y: 1, z: 0.2}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!1001 &851108538
 PrefabInstance:
@@ -1948,7 +2005,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1760852264
 PrefabInstance:
@@ -2086,7 +2143,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!1001 &1835194869
 PrefabInstance:
@@ -2354,7 +2411,7 @@ Transform:
   m_LocalScale: {x: 0.25, y: 1, z: 0.2}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!1001 &2101082575
 PrefabInstance:
