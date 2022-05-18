@@ -15,12 +15,12 @@ C:/Users/rayel/Desktop/Negotiation-Simulator/Negotiation Simulator
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62780
+50457
 Successfully changed project path to: C:/Users/rayel/Desktop/Negotiation-Simulator/Negotiation Simulator
 C:/Users/rayel/Desktop/Negotiation-Simulator/Negotiation Simulator
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 220.30 ms, found 14 plugins.
-Preloading 1 native plugins for Editor in 2.65 ms.
+Refreshing native plugins compatible for Editor in 200.17 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 2.03 ms.
 Initialize engine version: 2020.3.26f1 (7298b473bc1a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/rayel/Desktop/Negotiation-Simulator/Negotiation Simulator/Assets
@@ -35,49 +35,49 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56972
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56604
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008615 seconds.
+Registered in 0.005498 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 148.44 ms, found 14 plugins.
-Preloading 1 native plugins for Editor in 0.65 ms.
+Refreshing native plugins compatible for Editor in 132.23 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.520 seconds
+- Completed reload, in  1.603 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1520ms)
-		BeginReloadAssembly (132ms)
+	ReloadAssembly (1603ms)
+		BeginReloadAssembly (140ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (1203ms)
-			LoadAssemblies (126ms)
+		EndReloadAssembly (1267ms)
+			LoadAssemblies (130ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (344ms)
+			SetupTypeCache (397ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (75ms)
-			SetupLoadedEditorAssemblies (525ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (541ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (150ms)
-				BeforeProcessingInitializeOnLoad (35ms)
-				ProcessInitializeOnLoadAttributes (252ms)
-				ProcessInitializeOnLoadMethodAttributes (77ms)
+				RefreshPlugins (133ms)
+				BeforeProcessingInitializeOnLoad (27ms)
+				ProcessInitializeOnLoadAttributes (289ms)
+				ProcessInitializeOnLoadMethodAttributes (83ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.104443 seconds.
+Registered in 0.028079 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 137.04 ms, found 14 plugins.
-Preloading 1 native plugins for Editor in 0.39 ms.
+Refreshing native plugins compatible for Editor in 125.79 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
@@ -98,45 +98,45 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  3.240 seconds
+- Completed reload, in  3.202 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3250ms)
-		BeginReloadAssembly (354ms)
+	ReloadAssembly (3204ms)
+		BeginReloadAssembly (324ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (12ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (46ms)
-		EndReloadAssembly (2740ms)
-			LoadAssemblies (307ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (2724ms)
+			LoadAssemblies (265ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (782ms)
+			SetupTypeCache (805ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (119ms)
-			SetupLoadedEditorAssemblies (1227ms)
+			RebuildScriptCaches (136ms)
+			SetupLoadedEditorAssemblies (1198ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (138ms)
-				BeforeProcessingInitializeOnLoad (372ms)
-				ProcessInitializeOnLoadAttributes (627ms)
-				ProcessInitializeOnLoadMethodAttributes (63ms)
-				AfterProcessingInitializeOnLoad (16ms)
-				EditorAssembliesLoaded (1ms)
+				RefreshPlugins (126ms)
+				BeforeProcessingInitializeOnLoad (297ms)
+				ProcessInitializeOnLoadAttributes (685ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 2.62 ms, found 14 plugins.
-Preloading 1 native plugins for Editor in 0.36 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 2.33 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
 Unloading 2395 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.7 MB.
-System memory in use after: 99.9 MB.
+System memory in use before: 99.8 MB.
+System memory in use after: 100.0 MB.
 
 Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 2797.
-Total: 7.673900 ms (FindLiveObjects: 0.298000 ms CreateObjectMapping: 0.195200 ms MarkObjects: 7.037700 ms  DeleteObjects: 0.141000 ms)
+Total: 6.597700 ms (FindLiveObjects: 0.395100 ms CreateObjectMapping: 0.223400 ms MarkObjects: 5.837600 ms  DeleteObjects: 0.139500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -150,313 +150,168 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle4_Outfit5.prefab
-  artifactKey: Guid(7d869f8ccc85c4a46bb989ceb11af55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle4_Outfit5.prefab using Guid(7d869f8ccc85c4a46bb989ceb11af55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f93b9161e99d3b895554340575cce526') in 1.264020 seconds 
-  Import took 1.287180 seconds .
+  path: Assets/Animations/xbot@Having A Meeting, Female.fbx
+  artifactKey: Guid(a5e082cb04d9b334693c5e729b782dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/xbot@Having A Meeting, Female.fbx using Guid(a5e082cb04d9b334693c5e729b782dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad83d21936fd2a85c3bc68587a9edb6e') in 0.138984 seconds 
+  Import took 0.147823 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000951 seconds.
-  path: Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle3_Outfit4.prefab
-  artifactKey: Guid(c93d286f85d1d604ab26ebd9ca18a5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle3_Outfit4.prefab using Guid(c93d286f85d1d604ab26ebd9ca18a5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ada717059d12cdcb2f23275eaa22157d') in 0.862532 seconds 
-  Import took 0.878212 seconds .
+  Time since last request: 0.000735 seconds.
+  path: Assets/Animations/xbot@Idle.fbx
+  artifactKey: Guid(9c7b1b5824ec37e4baa84ee5ce84f5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/xbot@Idle.fbx using Guid(9c7b1b5824ec37e4baa84ee5ce84f5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a03f8f868e8982faed7a29037fcc9b') in 0.015381 seconds 
+  Import took 0.023945 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000979 seconds.
-  path: Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle3_Outfit5.prefab
-  artifactKey: Guid(941096ec930d17b439dc0263bac1abcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle3_Outfit5.prefab using Guid(941096ec930d17b439dc0263bac1abcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '954a26e64b9a6b6a127e5fe0477a7c9c') in 0.210354 seconds 
-  Import took 0.234193 seconds .
+  Time since last request: 0.000779 seconds.
+  path: Assets/Animations/xbot@Shaking Hands 1.fbx
+  artifactKey: Guid(6e5b96f09c2ec7f47b2c41da081e5c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/xbot@Shaking Hands 1.fbx using Guid(6e5b96f09c2ec7f47b2c41da081e5c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ee44976ce73c41adad606dfe515bb1b') in 0.018098 seconds 
+  Import took 0.027274 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001380 seconds.
-  path: Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle4_Outfit2.prefab
-  artifactKey: Guid(9dc9957d55c848740b3a91e1cec1b4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle4_Outfit2.prefab using Guid(9dc9957d55c848740b3a91e1cec1b4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f1a7701fe127e6bd4a28e8c2fcc1ed5') in 0.294077 seconds 
-  Import took 0.319325 seconds .
+  Time since last request: 0.712563 seconds.
+  path: Assets/Animations/xbot@Walking(in place).fbx
+  artifactKey: Guid(c5e0221e728488c43ad702bcd83323e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/xbot@Walking(in place).fbx using Guid(c5e0221e728488c43ad702bcd83323e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '909059219af9a085a8c34e28159f9c42') in 0.021407 seconds 
+  Import took 0.031583 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001059 seconds.
-  path: Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle1_Outfit6.prefab
-  artifactKey: Guid(bd18a40ce1b747f4e8e756c4a61d5093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle1_Outfit6.prefab using Guid(bd18a40ce1b747f4e8e756c4a61d5093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf627605a23e1d7dfc15faa9f6b046af') in 0.197803 seconds 
-  Import took 0.224322 seconds .
+  Time since last request: 15.499393 seconds.
+  path: Assets/Animations/xbot@Having A Meeting, Female.fbx
+  artifactKey: Guid(a5e082cb04d9b334693c5e729b782dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/xbot@Having A Meeting, Female.fbx using Guid(a5e082cb04d9b334693c5e729b782dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faba0138a3c98c7ed17105564056d8c8') in 0.032255 seconds 
+  Import took 0.040841 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001076 seconds.
-  path: Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle4_Outfit6.prefab
-  artifactKey: Guid(f1a97055ae6ad8c4aba4a64fddcdd999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle4_Outfit6.prefab using Guid(f1a97055ae6ad8c4aba4a64fddcdd999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb313c801f3524760cd2db9029736f3') in 0.207365 seconds 
-  Import took 0.232908 seconds .
+  Time since last request: 14.385475 seconds.
+  path: Assets/Animations/xbot@Having A Meeting, Female.fbx
+  artifactKey: Guid(a5e082cb04d9b334693c5e729b782dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/xbot@Having A Meeting, Female.fbx using Guid(a5e082cb04d9b334693c5e729b782dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c392ec9241510c7e1765c3ef82789e1') in 0.032161 seconds 
+  Import took 0.042957 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000904 seconds.
-  path: Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle2_Outfit5.prefab
-  artifactKey: Guid(ff573c0dc65a0954c8f8a2f0041ec955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle2_Outfit5.prefab using Guid(ff573c0dc65a0954c8f8a2f0041ec955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbed3043b80ca8ca93f5117253482de9') in 1.003257 seconds 
-  Import took 1.030814 seconds .
+  Time since last request: 13.655975 seconds.
+  path: Assets/Animations/xbot@Idle.fbx
+  artifactKey: Guid(9c7b1b5824ec37e4baa84ee5ce84f5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/xbot@Idle.fbx using Guid(9c7b1b5824ec37e4baa84ee5ce84f5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89ce066eb5ccfcbb77e2c60e6b99a41a') in 0.031799 seconds 
+  Import took 0.049318 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000763 seconds.
-  path: Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle5_Outfit1.prefab
-  artifactKey: Guid(8ac71609664b9304aa8cf108a0b604f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle5_Outfit1.prefab using Guid(8ac71609664b9304aa8cf108a0b604f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2770fb0e07a4fe73f856004e8a95330') in 0.234437 seconds 
-  Import took 0.260914 seconds .
+  Time since last request: 9.667530 seconds.
+  path: Assets/Animations/xbot@Idle.fbx
+  artifactKey: Guid(9c7b1b5824ec37e4baa84ee5ce84f5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/xbot@Idle.fbx using Guid(9c7b1b5824ec37e4baa84ee5ce84f5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13d2b2dc198a5ab0dc58502fe2c6bcf4') in 0.035696 seconds 
+  Import took 0.048303 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000864 seconds.
-  path: Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle5_Outfit5.prefab
-  artifactKey: Guid(29390e23194616949a0d445d1d790993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle5_Outfit5.prefab using Guid(29390e23194616949a0d445d1d790993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7cffaa577089575a9a57ea6aa503dc7') in 0.237592 seconds 
-  Import took 0.260939 seconds .
+  Time since last request: 18.158753 seconds.
+  path: Assets/Animations/xbot@Shaking Hands 1.fbx
+  artifactKey: Guid(6e5b96f09c2ec7f47b2c41da081e5c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/xbot@Shaking Hands 1.fbx using Guid(6e5b96f09c2ec7f47b2c41da081e5c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e5ca46cca6e6fcd6fd0afd386d9770') in 0.034712 seconds 
+  Import took 0.048412 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000710 seconds.
-  path: Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle5_Outfit2.prefab
-  artifactKey: Guid(9dc5e8cf49b589b41b90ee1c364b55df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle5_Outfit2.prefab using Guid(9dc5e8cf49b589b41b90ee1c364b55df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff3330fd0a3221a5882b6b5158f3da99') in 0.294567 seconds 
-  Import took 0.326650 seconds .
+  Time since last request: 6.804988 seconds.
+  path: Assets/Animations/xbot@Shaking Hands 1.fbx
+  artifactKey: Guid(6e5b96f09c2ec7f47b2c41da081e5c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/xbot@Shaking Hands 1.fbx using Guid(6e5b96f09c2ec7f47b2c41da081e5c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90620329b4f04029b9de163e656cd5ca') in 0.032813 seconds 
+  Import took 0.045215 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000701 seconds.
-  path: Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle1_Outfit1.prefab
-  artifactKey: Guid(9cb1746a9790e184b9f4f71ec6afb75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle1_Outfit1.prefab using Guid(9cb1746a9790e184b9f4f71ec6afb75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f7d193ddd5adc0a8665059f7b4747a7') in 0.240985 seconds 
-  Import took 0.264918 seconds .
+  Time since last request: 18.826203 seconds.
+  path: Assets/Animations/xbot@Walking(in place).fbx
+  artifactKey: Guid(c5e0221e728488c43ad702bcd83323e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/xbot@Walking(in place).fbx using Guid(c5e0221e728488c43ad702bcd83323e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaed8d0f6179021c7a0e064c3c603ced') in 0.027832 seconds 
+  Import took 0.039601 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000744 seconds.
-  path: Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle5_Outfit4.prefab
-  artifactKey: Guid(9cedff9d96355de48a4c8f111c4920ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle5_Outfit4.prefab using Guid(9cedff9d96355de48a4c8f111c4920ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '309f5086aa1e619b8279c7e047563155') in 0.543565 seconds 
-  Import took 0.561442 seconds .
+  Time since last request: 5.952282 seconds.
+  path: Assets/Animations/xbot@Walking(in place).fbx
+  artifactKey: Guid(c5e0221e728488c43ad702bcd83323e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/xbot@Walking(in place).fbx using Guid(c5e0221e728488c43ad702bcd83323e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573d4f28670fc76cc3424500e9467f8f') in 0.029731 seconds 
+  Import took 0.039515 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.001125 seconds.
-  path: Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle1_Outfit4.prefab
-  artifactKey: Guid(634c5bd388a84db48b317aa73bab6092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle1_Outfit4.prefab using Guid(634c5bd388a84db48b317aa73bab6092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a79a9078e929c8cf871a2b94d78f77d') in 0.208870 seconds 
-  Import took 0.228224 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.025044 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.75 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.26 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\rayel\Desktop\Negotiation-Simulator\Negotiation Simulator\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\rayel\Desktop\Negotiation-Simulator\Negotiation Simulator\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <55729f52d042492e9efc384182ae2feb>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001300 seconds.
-  path: Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle1_Outfit3.prefab
-  artifactKey: Guid(e31db0d7e2f31404f803f6dff55fbb1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle1_Outfit3.prefab using Guid(e31db0d7e2f31404f803f6dff55fbb1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c49cacc0186e2502571c1286ae87e8c0') in 0.465910 seconds 
-  Import took 0.483282 seconds .
+Mono: successfully reloaded assembly
+- Completed reload, in  2.851 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2852ms)
+		BeginReloadAssembly (309ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (96ms)
+		EndReloadAssembly (2391ms)
+			LoadAssemblies (242ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (757ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (120ms)
+			SetupLoadedEditorAssemblies (996ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (302ms)
+				ProcessInitializeOnLoadAttributes (615ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.91 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+Unloading 2371 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.4 MB.
+System memory in use after: 99.6 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000907 seconds.
-  path: Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle4_Outfit3.prefab
-  artifactKey: Guid(03951a8d6958a064790dbb9ff6891fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle4_Outfit3.prefab using Guid(03951a8d6958a064790dbb9ff6891fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c26dc00e19fea9c26b4dbec9f501c0f') in 0.195436 seconds 
-  Import took 0.215994 seconds .
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 2800.
+Total: 6.943000 ms (FindLiveObjects: 0.280300 ms CreateObjectMapping: 0.159500 ms MarkObjects: 6.426700 ms  DeleteObjects: 0.074200 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001181 seconds.
-  path: Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle6_Outfit5.prefab
-  artifactKey: Guid(39efeea2b926ee946b43fbb5c475438f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle6_Outfit5.prefab using Guid(39efeea2b926ee946b43fbb5c475438f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80c8e00efe4dc4faf8a175ed00696dd6') in 0.222263 seconds 
-  Import took 0.244585 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001083 seconds.
-  path: Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle1_Outfit2.prefab
-  artifactKey: Guid(f452490cc5fa5ef40b755efca13a6ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle1_Outfit2.prefab using Guid(f452490cc5fa5ef40b755efca13a6ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f92ea086b230cf76e064cb0d51c88ce9') in 0.220357 seconds 
-  Import took 0.240978 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000550 seconds.
-  path: Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle1_Outfit5.prefab
-  artifactKey: Guid(a341b9a9256106c4e9c1c74bd4d75e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle1_Outfit5.prefab using Guid(a341b9a9256106c4e9c1c74bd4d75e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35276bde482178329bf349b6d60afddd') in 0.260431 seconds 
-  Import took 0.295054 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001228 seconds.
-  path: Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle2_Outfit6.prefab
-  artifactKey: Guid(6bd22ee3633851145b88d1d240581924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle2_Outfit6.prefab using Guid(6bd22ee3633851145b88d1d240581924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23bf825b7282bb018964886c6c294d35') in 0.228184 seconds 
-  Import took 0.259437 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000777 seconds.
-  path: Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle3_Outfit6.prefab
-  artifactKey: Guid(583aa93f52bcaab4b8d20612e1bbe245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle3_Outfit6.prefab using Guid(583aa93f52bcaab4b8d20612e1bbe245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a4d76f8c27229f6cc8246d37df0a25') in 0.219280 seconds 
-  Import took 0.239570 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000637 seconds.
-  path: Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle2_Outfit3.prefab
-  artifactKey: Guid(2383326c807f0ef4d857df1f4539d908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle2_Outfit3.prefab using Guid(2383326c807f0ef4d857df1f4539d908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf0aa172f838653cd90606d777f78b6') in 0.285484 seconds 
-  Import took 0.310121 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000872 seconds.
-  path: Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle5_Outfit6.prefab
-  artifactKey: Guid(a6f1b1d7cc2d9be48839209b6960449a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle5_Outfit6.prefab using Guid(a6f1b1d7cc2d9be48839209b6960449a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e36649757efb7546b73e63f6d25feb13') in 0.213698 seconds 
-  Import took 0.235797 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000739 seconds.
-  path: Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle3_Outfit1.prefab
-  artifactKey: Guid(a68f29c0537a1be4e964d8d01876ee0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle3_Outfit1.prefab using Guid(a68f29c0537a1be4e964d8d01876ee0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '218053f20078826bc9fdcd3977314b80') in 0.239239 seconds 
-  Import took 0.257910 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000580 seconds.
-  path: Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle3_Outfit2.prefab
-  artifactKey: Guid(cc0f7479b2cef36488e98460e3e4adbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle3_Outfit2.prefab using Guid(cc0f7479b2cef36488e98460e3e4adbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5364a727bb48eaf57fecfdfe18c6ec55') in 0.225585 seconds 
-  Import took 0.247486 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001064 seconds.
-  path: Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle6_Outfit6.prefab
-  artifactKey: Guid(477f75202e2ab1b48af16e46ba75588d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle6_Outfit6.prefab using Guid(477f75202e2ab1b48af16e46ba75588d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c963fd9c1cd22106e36851a0766f4ff2') in 0.176861 seconds 
-  Import took 0.199150 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000727 seconds.
-  path: Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle6_Outfit2.prefab
-  artifactKey: Guid(ba8b806a8f4ecee4f83f940d8e90284c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle6_Outfit2.prefab using Guid(ba8b806a8f4ecee4f83f940d8e90284c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f29864761e16683a533d221c22ecaa') in 0.227973 seconds 
-  Import took 0.250017 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002676 seconds.
-  path: Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle6_Outfit4.prefab
-  artifactKey: Guid(428cc42de76d70843a25790c66abd614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle6_Outfit4.prefab using Guid(428cc42de76d70843a25790c66abd614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '487d9b5c9b1c96d3309e6c997a2e393e') in 0.205062 seconds 
-  Import took 0.225197 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000748 seconds.
-  path: Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle2_Outfit2.prefab
-  artifactKey: Guid(d416466c681e49c4db59c64cff9a45db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle2_Outfit2.prefab using Guid(d416466c681e49c4db59c64cff9a45db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92f370f4ce3a3e99183e4db5c42590dd') in 0.253637 seconds 
-  Import took 0.275948 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001122 seconds.
-  path: Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle6_Outfit3.prefab
-  artifactKey: Guid(92a43d527555ce046b849cb909975e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle6_Outfit3.prefab using Guid(92a43d527555ce046b849cb909975e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7cf4c1f9a1e90acb89403910790855a') in 0.220494 seconds 
-  Import took 0.240956 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000908 seconds.
-  path: Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle2_Outfit4.prefab
-  artifactKey: Guid(bb64a65bb5d617a4081f221516eb8fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle2_Outfit4.prefab using Guid(bb64a65bb5d617a4081f221516eb8fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b952b8a2078aa0cd47140b85cddb4f63') in 0.223357 seconds 
-  Import took 0.247625 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000962 seconds.
-  path: Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle5_Outfit3.prefab
-  artifactKey: Guid(538fad3acb4b97e4c89605468f58c4a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle5_Outfit3.prefab using Guid(538fad3acb4b97e4c89605468f58c4a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '416e65ff9369f40540dd3e621f9c7d90') in 0.231527 seconds 
-  Import took 0.251727 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001019 seconds.
-  path: Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle3_Outfit3.prefab
-  artifactKey: Guid(044670052b5f3024591de0bdb9ada9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle3_Outfit3.prefab using Guid(044670052b5f3024591de0bdb9ada9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa7d1168a0eef50468cd5d8bcdeffa6f') in 0.237604 seconds 
-  Import took 0.259957 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000764 seconds.
-  path: Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle6_Outfit1.prefab
-  artifactKey: Guid(ed92eb9bca8f1834bb84bdcefd23cb3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle6_Outfit1.prefab using Guid(ed92eb9bca8f1834bb84bdcefd23cb3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '920694b0420dac3df517321cab66f067') in 0.262106 seconds 
-  Import took 0.281008 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000853 seconds.
-  path: Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle4_Outfit1.prefab
-  artifactKey: Guid(68bed8cca57340244a8de89e6647f8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle4_Outfit1.prefab using Guid(68bed8cca57340244a8de89e6647f8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65014dffe96ecfd0285486cb4ffc045e') in 0.234185 seconds 
-  Import took 0.275089 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000656 seconds.
-  path: Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle2_Outfit1.prefab
-  artifactKey: Guid(1d306b3641dac37459c9777c1c3bf1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle2_Outfit1.prefab using Guid(1d306b3641dac37459c9777c1c3bf1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8741980fbf36809ae7f8d00567b4d289') in 0.343417 seconds 
-  Import took 0.371357 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000811 seconds.
-  path: Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle4_Outfit4.prefab
-  artifactKey: Guid(fe4a0a2f987e17040a03b2ea088ca18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Office - Women/Prefabs/AbigailPrefabs/Abigail_Hairstyle4_Outfit4.prefab using Guid(fe4a0a2f987e17040a03b2ea088ca18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c0a97d942dc7f88e103da63bdda75d3') in 0.277710 seconds 
-  Import took 0.305761 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 52.913438 seconds.
-  path: Assets/Animations
-  artifactKey: Guid(243e686772d969a439594791b14259f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations using Guid(243e686772d969a439594791b14259f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd51c259609368655db893ae988e18ede') in 0.009204 seconds 
-  Import took 0.019664 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.053958 seconds.
-  path: Assets/Animations/Abigail Controller.controller
-  artifactKey: Guid(d21ac56fa00d4d949a3e0ee16c8f5bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Abigail Controller.controller using Guid(d21ac56fa00d4d949a3e0ee16c8f5bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c24e163536cb9c3eeb0448591064bb8') in 0.024828 seconds 
-  Import took 0.034178 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.653404 seconds.
-  path: Assets/Animations/Abigail Controller.controller
-  artifactKey: Guid(d21ac56fa00d4d949a3e0ee16c8f5bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Abigail Controller.controller using Guid(d21ac56fa00d4d949a3e0ee16c8f5bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49605c14362999aa709376eef42cd455') in 0.020355 seconds 
-  Import took 0.031306 seconds .
-
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
