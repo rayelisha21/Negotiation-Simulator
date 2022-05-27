@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SetPosition : MonoBehaviour
 {
+    
     void Start()
     {
         StartCoroutine(RePositionWithDelay());
@@ -11,18 +12,18 @@ public class SetPosition : MonoBehaviour
 
     IEnumerator RePositionWithDelay()
     {
-        while (true)
-        {
-            SetRandomPosition();
-            yield return new WaitForSeconds(5f);
-        }
+            FirstPosition();
+            yield return new WaitForSeconds(20f);
+            SecondPosition();
     }
 
-    void SetRandomPosition()
+    void FirstPosition()
     {
-        //float x = Random.Range(-5.0f, 5.0f);
-        //float z = Random.Range(-5.0f, 5.0f);
-        //Debug.Log("X,Z: " + x.ToString("F2") + ", " + z.ToString("F2"));
-        transform.position = new Vector3(2.75f, 0.0f, 1.4f);
+        transform.position = new Vector3(0.443f, 0.0f, 1.722f);
+    }
+
+    void SecondPosition()
+    {
+        transform.position = new Vector3(-2.55f, 0.0f, 0.46f);
     }
 }

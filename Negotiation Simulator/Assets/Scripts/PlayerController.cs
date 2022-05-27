@@ -1,15 +1,24 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
     
-    public Animator anim;
+    public Transform target;
+    public float speed;
 
-    void Update()
+    void Start()
     {
-        anim.SetFloat("vertical", Input.GetAxis("Vertical"));
-        anim.SetFloat("horizontal", Input.GetAxis("Horizontal"));
+
     }
+
+    void FixedUpdate()
+    {
+        Vector3 a = target.position;
+        Vector3 b = target.position;
+        target.position = Vector3.MoveTowards(a, b, speed);
+    }
+
 }

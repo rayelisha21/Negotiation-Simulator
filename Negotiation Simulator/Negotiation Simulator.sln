@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{73434CAE-CB8F-FD84-3F2A-25167C21C923}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{672FB379-0C9F-AB75-CA2D-41FB0E006D54}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.Management.Samples.Editor", "Unity.XR.Management.Samples.Editor.csproj", "{CA653B9B-B54E-FF9C-898D-4D35FE8C057B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.Management.Samples", "Unity.XR.Management.Samples.csproj", "{F7CFE028-EB8D-E07A-6AF8-146F0ECF02DF}"
@@ -19,6 +21,10 @@ Global
 		{73434CAE-CB8F-FD84-3F2A-25167C21C923}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73434CAE-CB8F-FD84-3F2A-25167C21C923}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73434CAE-CB8F-FD84-3F2A-25167C21C923}.Release|Any CPU.Build.0 = Release|Any CPU
+		{672FB379-0C9F-AB75-CA2D-41FB0E006D54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{672FB379-0C9F-AB75-CA2D-41FB0E006D54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{672FB379-0C9F-AB75-CA2D-41FB0E006D54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{672FB379-0C9F-AB75-CA2D-41FB0E006D54}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CA653B9B-B54E-FF9C-898D-4D35FE8C057B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CA653B9B-B54E-FF9C-898D-4D35FE8C057B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA653B9B-B54E-FF9C-898D-4D35FE8C057B}.Release|Any CPU.ActiveCfg = Release|Any CPU

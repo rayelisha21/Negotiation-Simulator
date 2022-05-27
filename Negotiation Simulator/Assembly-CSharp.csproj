@@ -51,26 +51,34 @@
      <Compile Include="Assets\SpeechBlend\Scripts\SpeechBlend.cs" />
      <Compile Include="Assets\Recognissimo\Runtime\Scripts\Components\VoiceActivityDetector.cs" />
      <Compile Include="Assets\Recognissimo\Runtime\Scripts\Core\RecognizerWrapper.cs" />
+     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
+     <Compile Include="Assets\SampleScenes\Scripts\LevelReset.cs" />
      <Compile Include="Assets\SpeechBlend\Scripts\SelectFaceBlendshapes.cs" />
      <Compile Include="Assets\Recognissimo\Runtime\Scripts\Components\LanguageModelProvider.cs" />
+     <Compile Include="Assets\Scripts\AbigailThirdPersonController.cs" />
      <Compile Include="Assets\Recognissimo\Runtime\Scripts\Core\ModelRepository.cs" />
      <Compile Include="Assets\SpeechBlend\Demo\Scripts\SpeechBlendMicrophoneInput.cs" />
      <Compile Include="Assets\Recognissimo\Runtime\Scripts\Components\ModelProvider.cs" />
      <Compile Include="Assets\Recognissimo\Runtime\Scripts\Components\MicrophoneSpeechSource.cs" />
      <Compile Include="Assets\Recognissimo\Runtime\Scripts\Core\ModelSource\ZipModelSource.cs" />
      <Compile Include="Assets\Recognissimo\Runtime\Scripts\Components\Examples\VoiceActivityDetectorExample.cs" />
+     <Compile Include="Assets\SampleScenes\Scripts\CameraSwitch.cs" />
      <Compile Include="Assets\Recognissimo\Runtime\Scripts\Utils\Consumer.cs" />
      <Compile Include="Assets\Recognissimo\Runtime\Scripts\Utils\SerializableList.cs" />
      <Compile Include="Assets\Recognissimo\Runtime\Scripts\Core\ModelSource\IModelSource.cs" />
+     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
      <Compile Include="Assets\SpeechBlend\Demo\Scripts\RandomLook.cs" />
      <Compile Include="Assets\Recognissimo\Runtime\Scripts\Components\Examples\MicrophoneExample.cs" />
      <Compile Include="Assets\Recognissimo\Runtime\Scripts\Components\SpeechRecognizer.cs" />
      <Compile Include="Assets\Recognissimo\Runtime\Scripts\Components\AudioClipSpeechSource.cs" />
      <Compile Include="Assets\Recognissimo\Runtime\Scripts\Components\SpeechSource.cs" />
      <Compile Include="Assets\Recognissimo\Runtime\Scripts\Core\Result.cs" />
+     <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\movementController.cs" />
+     <Compile Include="Assets\Scripts\SetPosition.cs" />
      <Compile Include="Assets\Recognissimo\Runtime\Scripts\Utils\ArrayPool.cs" />
      <Compile Include="Assets\Recognissimo\Runtime\Scripts\Components\VoiceControl.cs" />
+     <Compile Include="Assets\Scripts\RandomPosition.cs" />
      <Compile Include="Assets\Recognissimo\Runtime\Scripts\Utils\Zip.cs" />
      <Compile Include="Assets\Recognissimo\Runtime\Scripts\Components\AudioListenerSpeechSource.cs" />
      <None Include="Assets\Stylized Office - Women\Shader\DoubleSided.shader" />
@@ -753,6 +761,11 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{672FB379-0C9F-AB75-CA2D-41FB0E006D54}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.Samples.Editor.csproj">
       <Project>{CA653B9B-B54E-FF9C-898D-4D35FE8C057B}</Project>
       <Name>Unity.XR.Management.Samples.Editor</Name>
