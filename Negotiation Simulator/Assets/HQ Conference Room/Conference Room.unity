@@ -106,7 +106,7 @@ NavMeshSettings:
   m_BuildSettings:
     serializedVersion: 2
     agentTypeID: 0
-    agentRadius: 0.2
+    agentRadius: 0.05
     agentHeight: 2
     agentSlope: 45
     agentClimb: 0.4
@@ -114,10 +114,10 @@ NavMeshSettings:
     maxJumpAcrossDistance: 0
     minRegionArea: 2
     manualCellSize: 0
-    cellSize: 0.06666667
+    cellSize: 0.016666668
     manualTileSize: 0
     tileSize: 256
-    accuratePlacement: 1
+    accuratePlacement: 0
     maxJobWorkers: 0
     preserveTilesOutsideBounds: 0
     debug:
@@ -210,8 +210,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 51153738}
-  m_LocalRotation: {x: -0.026857296, y: 0.9695296, z: -0.12429552, w: -0.20938386}
-  m_LocalPosition: {x: 3.5469096, y: 2.1307263, z: 3.5012717}
+  m_LocalRotation: {x: -0.11904933, y: 0.8661177, z: -0.24674179, w: -0.41807398}
+  m_LocalPosition: {x: 0.9060846, y: 2.2544231, z: 1.1250514}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -495,7 +495,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &325805284
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1833,7 +1833,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 8b6f8dd04f4fd71498fc5a709c208858, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1983,7 +1983,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   voiceAudioSource: {fileID: 1447994206}
   headMesh: {fileID: 630646626}
-  showBlendShapeMenu: 0
+  showBlendShapeMenu: 1
   faceBlendshapes:
     template:
       templateType: 0
@@ -2046,12 +2046,12 @@ MonoBehaviour:
       - EH
       - AA
   lipsyncActive: 1
-  trackingMode: 0
+  trackingMode: 1
   jawMovementAmount: 0.5
   jawMovementSpeed: 0.5
   lipsBlendshapeMovementAmount: 0.5
   lipsBlendshapeChangeSpeed: 0.5
-  accuracy: 1
+  accuracy: 2
   framesPerUpdate: 1
   volumeEqualization: 0
   voiceType: 1
@@ -2242,6 +2242,26 @@ PrefabInstance:
     - target: {fileID: 4164521127572038, guid: 7e89766b7d25c6c4a98ea345279913d3, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0.0788
+      objectReference: {fileID: 0}
+    - target: {fileID: 4164521127572038, guid: 7e89766b7d25c6c4a98ea345279913d3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4164521127572038, guid: 7e89766b7d25c6c4a98ea345279913d3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4164521127572038, guid: 7e89766b7d25c6c4a98ea345279913d3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4164521127572038, guid: 7e89766b7d25c6c4a98ea345279913d3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4164521127572038, guid: 7e89766b7d25c6c4a98ea345279913d3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4936220830666290, guid: 7e89766b7d25c6c4a98ea345279913d3, type: 3}
       propertyPath: m_RootOrder
