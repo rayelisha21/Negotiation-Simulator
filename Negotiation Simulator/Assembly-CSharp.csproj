@@ -49,13 +49,17 @@
   <ItemGroup>
      <Compile Include="Assets\SpeechBlend\Scripts\WebGL\SpeechBlend_WEBGL_AudioSpectrum.cs" />
      <Compile Include="Assets\SpeechBlend\Scripts\SpeechBlend.cs" />
+     <Compile Include="Assets\Recognissimo\Runtime\Scripts\Components\RecognitionLogger.cs" />
      <Compile Include="Assets\Recognissimo\Runtime\Scripts\Components\VoiceActivityDetector.cs" />
+     <Compile Include="Assets\GUI PRO Kit - Simple Casual\Scripts\PanelControlSimpleCasual.cs" />
      <Compile Include="Assets\Recognissimo\Runtime\Scripts\Core\RecognizerWrapper.cs" />
      <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
      <Compile Include="Assets\SampleScenes\Scripts\LevelReset.cs" />
      <Compile Include="Assets\SpeechBlend\Scripts\SelectFaceBlendshapes.cs" />
      <Compile Include="Assets\Recognissimo\Runtime\Scripts\Components\LanguageModelProvider.cs" />
      <Compile Include="Assets\Scripts\AbigailThirdPersonController.cs" />
+     <Compile Include="Assets\UI pack\Scripts\FillValueNumber.cs" />
+     <Compile Include="Assets\GUI PRO Kit - Simple Casual\Scripts\PanelSimpleCasual.cs" />
      <Compile Include="Assets\Recognissimo\Runtime\Scripts\Core\ModelRepository.cs" />
      <Compile Include="Assets\SpeechBlend\Demo\Scripts\SpeechBlendMicrophoneInput.cs" />
      <Compile Include="Assets\Recognissimo\Runtime\Scripts\Components\ModelProvider.cs" />
@@ -82,11 +86,34 @@
      <Compile Include="Assets\Recognissimo\Runtime\Scripts\Utils\Zip.cs" />
      <Compile Include="Assets\Recognissimo\Runtime\Scripts\Components\AudioListenerSpeechSource.cs" />
      <None Include="Assets\Stylized Office - Women\Shader\DoubleSided.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
      <None Include="Assets\csc.rsp" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
      <None Include="Assets\Recognissimo\Licenses\Vosk-License.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\SpeechBlend\Scripts\WebGL\SpeechBlend_WEBGL_AttachJSLIB.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\Vending_Machine_Pack\ReadMe.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\UI pack\Documentation.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <None Include="Assets\HQ Conference Room\How To Activate Post Processing.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
      <None Include="Assets\Recognissimo\Licenses\Third-Party Notices.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
