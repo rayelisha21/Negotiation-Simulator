@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.UI", "UnityEngine.UI.csproj", "{f18b6648-5444-878d-9594-f470f8162cbe}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.Platform", "Oculus.Platform.csproj", "{fc47a507-d28d-dbd6-54e3-5b063d850f9a}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{ae4c4373-8fcb-84fd-3f2a-25167c21c923}"
@@ -10,8 +12,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.Spatializer", "Oculus.Spatializer.csproj", "{f355d2da-99dd-428a-8f80-318a221aa3e6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.InputSystem", "Unity.InputSystem.csproj", "{a33cd3e5-b2a7-22d6-09ba-f19063a6fa72}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.UI", "UnityEngine.UI.csproj", "{f18b6648-5444-878d-9594-f470f8162cbe}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.Interaction", "Oculus.Interaction.csproj", "{def1de59-300b-2fff-66e6-14330f69fabe}"
 EndProject
@@ -138,6 +138,8 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{f18b6648-5444-878d-9594-f470f8162cbe}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{f18b6648-5444-878d-9594-f470f8162cbe}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{fc47a507-d28d-dbd6-54e3-5b063d850f9a}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{fc47a507-d28d-dbd6-54e3-5b063d850f9a}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ae4c4373-8fcb-84fd-3f2a-25167c21c923}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -148,8 +150,6 @@ Global
 		{f355d2da-99dd-428a-8f80-318a221aa3e6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{a33cd3e5-b2a7-22d6-09ba-f19063a6fa72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{a33cd3e5-b2a7-22d6-09ba-f19063a6fa72}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{f18b6648-5444-878d-9594-f470f8162cbe}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{f18b6648-5444-878d-9594-f470f8162cbe}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{def1de59-300b-2fff-66e6-14330f69fabe}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{def1de59-300b-2fff-66e6-14330f69fabe}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4d897821-c831-16d0-8c5d-b6dad0422cc6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU

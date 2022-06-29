@@ -185,6 +185,7 @@
      <Compile Include="Assets\AutoHand\Scripts\Templates\HandTouchEventDebugger.cs" />
      <Compile Include="Assets\SpeechBlend\Scripts\WebGL\SpeechBlend_WEBGL_AudioSpectrum.cs" />
      <Compile Include="Assets\AutoHand\Scripts\Demo\Gadget Demo\PhysicsSliderPositionMover.cs" />
+     <Compile Include="Assets\WordCollector.cs" />
      <Compile Include="Assets\AutoHand\Scripts\Demo\Demo Scene\ToggleHandProjection.cs" />
      <Compile Include="Assets\AutoHand\Scripts\Hand\HandTeleportGuard.cs" />
      <Compile Include="Assets\SpeechBlend\Scripts\SpeechBlend.cs" />
@@ -330,7 +331,7 @@
      <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\SelectivePassthroughExperience.cs" />
      <Compile Include="Assets\AutoHand\Scripts\Templates\HandEventDebugger.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\TrackSegment.cs" />
-     <Compile Include="Assets\WordCollector.cs" />
+     <Compile Include="Assets\MovePowerpoint.cs" />
      <None Include="Assets\Stylized Office - Women\Shader\DoubleSided.shader" />
      <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
