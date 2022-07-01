@@ -8,7 +8,10 @@ public class WordCollector : MonoBehaviour
     private string text;
     public GameObject RecogLogger;
     public TMP_Text wordtext;
+    public TMP_Text pointtext;
     private string lastword;
+    public int points;
+    private string[] list1 = {"great price", "fast", "small"};
     
     // Start is called before the first frame update
     void Start()
@@ -24,6 +27,16 @@ public class WordCollector : MonoBehaviour
             lastword = rl.totaltext;
             text += rl.totaltext + " ";
             wordtext.text = text;
+            foreach (var word in list1) {
+		        if (lastword.Contains(word.ToString()))
+			        AdjustPoints();
+	        }
         }
+    }
+
+    void AdjustPoints()
+    {
+        points += 1;
+        pointtext.text = points.ToString();
     }
 }
