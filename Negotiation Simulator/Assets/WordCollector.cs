@@ -7,10 +7,10 @@ public class WordCollector : MonoBehaviour
 {
     private string text;
     public GameObject RecogLogger;
+    public GameObject playerstats;
     public TMP_Text wordtext;
     public TMP_Text pointtext;
     private string lastword;
-    public int points;
     private string[] list1 = {"great price", "fast", "small"};
     
     // Start is called before the first frame update
@@ -29,14 +29,24 @@ public class WordCollector : MonoBehaviour
             wordtext.text = text;
             foreach (var word in list1) {
 		        if (lastword.Contains(word.ToString()))
-			        AdjustPoints();
+			        AdjustPoints(1);
 	        }
+            if (lastword.Contains("um"))
+                AdjustPoints(-1);
+            if (lastword.Contains("uh"))
+                AdjustPoints(-1);
         }
     }
 
-    void AdjustPoints()
+    void AdjustPoints(int value)
     {
-        points += 1;
+        int points = playerstats.GetComponent<Player>().totalpoints;
+        points += value;
         pointtext.text = points.ToString();
+        playerstats.GetComponent<Player>().totalpoints = points;
+        
+        int health = playerstats.GetComponent<Player>().currentHealth;
+        health += value;
+        playerstats.GetComponent<Player>().healthbar.SetHealth(health);
     }
 }

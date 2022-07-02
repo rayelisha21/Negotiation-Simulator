@@ -5,14 +5,16 @@ using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
-    public int maxHealth = 100; 
+    public int maxHealth = 10; 
     public int currentHealth;
+    public int totalpoints;
 
     public HealthBar healthbar;
 
 
     void Start()
     {
+        totalpoints = 0;
         currentHealth = maxHealth / 2;
         healthbar.SetMaxHealth(maxHealth);
         healthbar.SetHealth(currentHealth);

@@ -2022,9 +2022,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RecogLogger: {fileID: 1464438890}
+  playerstats: {fileID: 1238549481}
   wordtext: {fileID: 1995132086}
   pointtext: {fileID: 96589865}
-  points: 0
 --- !u!1001 &557991710
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3544,7 +3544,7 @@ GameObject:
   - component: {fileID: 1238549482}
   - component: {fileID: 1238549483}
   m_Layer: 0
-  m_Name: Player
+  m_Name: PlayerStats
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3578,6 +3578,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   currentHealth: 0
+  totalpoints: 0
   healthbar: {fileID: 1601240688}
 --- !u!1 &1254759661
 GameObject:
@@ -4908,7 +4909,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 0}
   m_FillRect: {fileID: 1803351689}
   m_HandleRect: {fileID: 0}
