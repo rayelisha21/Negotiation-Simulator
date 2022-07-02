@@ -127,6 +127,7 @@
      <Compile Include="Assets\Recognissimo\Runtime\Scripts\Utils\Consumer.cs" />
      <Compile Include="Assets\Recognissimo\Runtime\Scripts\Core\ModelSource\IModelSource.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs" />
+     <Compile Include="Assets\Scripts\HealthBar.cs" />
      <Compile Include="Assets\AutoHand\Scripts\Demo\Text Demo\TMPSizeProtector.cs" />
      <Compile Include="Assets\AutoHand\Examples\Scenes\XR\Scripts\XRMover.cs" />
      <Compile Include="Assets\AutoHand\Scripts\Demo\Demo Scene\OpenLink.cs" />
@@ -251,6 +252,7 @@
      <Compile Include="Assets\AutoHand\Scripts\Demo\Demo Scene\Pistol.cs" />
      <Compile Include="Assets\AutoHand\Scripts\Internal\KeyboardHand.cs" />
      <Compile Include="Assets\AutoHand\Examples\Scenes\Oculus Integration\Scripts\OVRHandControllerLink.cs" />
+     <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\AutoHand\Scripts\Hand\HandCollisionHaptics.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\SceneSampler.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportTargetHandlerNode.cs" />
