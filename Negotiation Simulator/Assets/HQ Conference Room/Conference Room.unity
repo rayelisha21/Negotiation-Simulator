@@ -3064,7 +3064,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   screen: {fileID: 1809106802}
-  currentslide: 5
+  currentslide: 1
 --- !u!4 &857092339
 Transform:
   m_ObjectHideFlags: 0
