@@ -7,11 +7,13 @@ public class WordCollector : MonoBehaviour
 {
     private string text;
     public GameObject RecogLogger;
-    public GameObject playerstats;
+    public Player playerstats;
+    public HealthBar healthbar;
     public TMP_Text wordtext;
     public TMP_Text pointtext;
     private string lastword;
     private string[] list1 = {"great price", "fast", "small"};
+
     
     // Start is called before the first frame update
     void Start()
@@ -35,18 +37,13 @@ public class WordCollector : MonoBehaviour
                 AdjustPoints(-1);
             if (lastword.Contains("uh"))
                 AdjustPoints(-1);
-        }
+        } 
     }
 
     void AdjustPoints(int value)
     {
-        int points = playerstats.GetComponent<Player>().totalpoints;
-        points += value;
-        pointtext.text = points.ToString();
-        playerstats.GetComponent<Player>().totalpoints = points;
-        
-        int health = playerstats.GetComponent<Player>().currentHealth;
-        health += value;
-        playerstats.GetComponent<Player>().healthbar.SetHealth(health);
+        playerstats.currentHealth += value;
+        pointtext.text = playerstats.currentHealth.ToString();
+        healthbar.SetHealth(playerstats.currentHealth);
     }
 }

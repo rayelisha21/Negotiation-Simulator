@@ -2022,7 +2022,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RecogLogger: {fileID: 1464438890}
-  playerstats: {fileID: 1238549481}
+  playerstats: {fileID: 1238549483}
+  healthbar: {fileID: 1601240688}
   wordtext: {fileID: 1995132086}
   pointtext: {fileID: 96589865}
 --- !u!1001 &557991710
