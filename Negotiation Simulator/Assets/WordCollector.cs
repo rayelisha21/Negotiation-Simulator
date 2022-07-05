@@ -103,24 +103,43 @@ public class WordCollector : MonoBehaviour
             AdjustPoints(-1);
     }
 
-    void StartRecap(){
-        pregame = false;
-        recap = true;
+    public void ChangeState() {
+        if (pregame == true){
+            pregame = false;
+            recap = true;
+        }
+        else if (recap == true){
+            recap = false;
+            slideshow = true;
+        }
+        else if (slideshow == true){
+            slideshow = false;
+            obj1 = true;
+        }
+        else if (obj1 == true){
+            obj1 = false;
+            obj2 = true;
+        }
     }
+    
+    // void StartRecap(){
+    //     pregame = false;
+    //     recap = true;
+    // }
 
-    void StartSlideshow(){
-        recap = false;
-        slideshow = true;
-    }
+    // void StartSlideshow(){
+    //     recap = false;
+    //     slideshow = true;
+    // }
 
-    void StartObj1(){
-        slideshow = false;
-        obj1 = true;
-    }
+    // void StartObj1(){
+    //     slideshow = false;
+    //     obj1 = true;
+    // }
 
-    void StartObj2(){
-        obj1 = false;
-        obj2 = true;
-    }
+    // void StartObj2(){
+    //     obj1 = false;
+    //     obj2 = true;
+    // }
 
 }

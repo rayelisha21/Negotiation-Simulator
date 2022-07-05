@@ -6,18 +6,23 @@ public class MovePowerpoint : MonoBehaviour
 {
     public Transform screen;
     public int currentslide;
+    public static Material slide1;
+    public static Material slide2;
+    public static Material slide3;
+    public static Material slide4;
+    public static Material slide5;
+    public Material[] slides = {slide1, slide2, slide3, slide4, slide5};
 
     // Start is called before the first frame update
     void Start()
     {
-        Material slide1 = Resources.Load("PowerpointPictures/slide 1 material", typeof(Material)) as Material;
-        Material slide2 = Resources.Load("PowerpointPictures/slide 2 material", typeof(Material)) as Material;
-        Material slide3 = Resources.Load("PowerpointPictures/slide 3 material", typeof(Material)) as Material;
-        Material slide4 = Resources.Load("PowerpointPictures/slide 4 material", typeof(Material)) as Material;
-        Material slide5 = Resources.Load("PowerpointPictures/slide 5 material", typeof(Material)) as Material;
+        // Material slide1 = Resources.Load("PowerpointPictures/slide 1 material", typeof(Material)) as Material;
+        // Material slide2 = Resources.Load("PowerpointPictures/slide 2 material", typeof(Material)) as Material;
+        // Material slide3 = Resources.Load("PowerpointPictures/slide 3 material", typeof(Material)) as Material;
+        // Material slide4 = Resources.Load("PowerpointPictures/slide 4 material", typeof(Material)) as Material;
+        // Material slide5 = Resources.Load("PowerpointPictures/slide 5 material", typeof(Material)) as Material;
         
-        Material[] slides = {slide1, slide2, slide3, slide4, slide5};
-        SlideForward(slides);
+        
     }
 
     // Update is called once per frame
@@ -26,7 +31,7 @@ public class MovePowerpoint : MonoBehaviour
         
     }
 
-    void SlideForward(Material[] slides)
+    public void SlideForward()
     {
         if (currentslide == 5) {
             currentslide = 5;
@@ -38,7 +43,7 @@ public class MovePowerpoint : MonoBehaviour
         screen.GetComponent<Renderer>().material = slides[currentslide - 1];
     }
 
-    void SlideBackward(Material[] slides)
+    public void SlideBackward()
     {
         if (currentslide == 1) {
             currentslide = 1;
@@ -50,3 +55,9 @@ public class MovePowerpoint : MonoBehaviour
         screen.GetComponent<Renderer>().material = slides[currentslide - 1];
     }
 }
+
+
+
+
+
+
