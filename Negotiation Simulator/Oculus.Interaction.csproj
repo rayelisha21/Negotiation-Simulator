@@ -56,8 +56,8 @@
      <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\PoseDetection\ShapeRecognizerActiveState.cs" />
      <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\Interaction\Models\HandGrab\PoseMeasureParameters.cs" />
      <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\Interaction\Core\IMonoBehaviourFilter.cs" />
-     <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\Selection\Hands\HandJoint.cs" />
      <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\Interaction\Visuals\BecomeChildOfTargetOnStart.cs" />
+     <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\Selection\Hands\HandJoint.cs" />
      <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\Utils\PoseUtils.cs" />
      <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\Interaction\Models\HandGrab\GrabPointsPoseFinder.cs" />
      <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\Interaction\Visuals\HandConfidenceVisual.cs" />

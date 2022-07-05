@@ -9,7 +9,10 @@ public class Player : MonoBehaviour
     public int currentHealth;
     public int totalpoints;
 
+    public int maxTime = 120;
+
     public HealthBar healthbar;
+    public TimeBar timebar;
 
 
     void Start()
@@ -18,6 +21,8 @@ public class Player : MonoBehaviour
         currentHealth = maxHealth / 2;
         healthbar.SetMaxHealth(maxHealth);
         healthbar.SetHealth(currentHealth);
+
+        timebar.SetMaxTime(maxTime);
     }
 
     void Update()
@@ -26,7 +31,7 @@ public class Player : MonoBehaviour
         // TakeDamage(1);
     }
 
-    void TakeDamage(int damage)
+    public void TakeDamage(int damage)
     {
         currentHealth -= damage;
         healthbar.SetHealth(currentHealth);
