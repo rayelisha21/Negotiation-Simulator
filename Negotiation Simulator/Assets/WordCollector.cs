@@ -6,13 +6,14 @@ using TMPro;
 public class WordCollector : MonoBehaviour
 {
     private string text;
+    private string lastword;
     public GameObject RecogLogger;
     public Player playerstats;
     public HealthBar healthbar;
     public GameObject PowerpointChanger;
     public TMP_Text wordtext;
     public TMP_Text pointtext;
-    private string lastword;
+    
     
     private bool pregame;
     private bool recap;
@@ -120,6 +121,10 @@ public class WordCollector : MonoBehaviour
             obj1 = false;
             obj2 = true;
         }
+    }
+
+    public void EmptyText() {
+        text = "";
     }
     
     // void StartRecap(){
