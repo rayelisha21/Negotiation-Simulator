@@ -13,6 +13,8 @@ public class MovePowerpoint : MonoBehaviour
     public static Material slide5;
     public Material[] slides = {slide1, slide2, slide3, slide4, slide5};
 
+    public TimeBar timebar;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -33,6 +35,9 @@ public class MovePowerpoint : MonoBehaviour
 
     public void SlideForward()
     {
+        timebar.countdown = false;
+        timebar.SetTime(180);
+
         if (currentslide == 5) {
             currentslide = 5;
         }
@@ -41,6 +46,8 @@ public class MovePowerpoint : MonoBehaviour
         }
         
         screen.GetComponent<Renderer>().material = slides[currentslide - 1];
+
+        timebar.countdown = true;
     }
 
     public void SlideBackward()
