@@ -13,6 +13,7 @@ public class WordCollector : MonoBehaviour
     public GameObject PowerpointChanger;
     public TMP_Text wordtext;
     public TMP_Text pointtext;
+    public GameOverSequence go;
     
     
     private bool pregame;
@@ -20,6 +21,7 @@ public class WordCollector : MonoBehaviour
     private bool slideshow;
     private bool obj1;
     private bool obj2;
+    public bool end;
     
     private string[] greetinglist = {"hi", "hello", "hey", "nice" , "great", "meet"};
     private string[] recaplist = {"increase profit", "profitability", "doesn't", 
@@ -88,6 +90,7 @@ public class WordCollector : MonoBehaviour
     void AdjustPoints(int value)
     {
         playerstats.currentHealth += value;
+        playerstats.totalpoints += value;
         pointtext.text = playerstats.currentHealth.ToString();
         healthbar.SetHealth(playerstats.currentHealth);
     }
@@ -120,6 +123,11 @@ public class WordCollector : MonoBehaviour
         else if (obj1 == true){
             obj1 = false;
             obj2 = true;
+        }
+        else {
+            obj2 = false;
+            end = true;
+            go.End();
         }
     }
 
